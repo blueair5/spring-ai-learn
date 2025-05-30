@@ -15,7 +15,7 @@ sequenceDiagram
     participant Mcp-Client
 participant Mcp-Server
 
-rect blue
+rect rgb(50, 50, 50)
 note over Mcp-Server, Mcp-Client: 服务初始化，根据协议自动进行处理的部分
 Mcp-Server ->> Mcp-Server: 服务自注册
 Mcp-Client ->> Mcp-Client: 客户端启动
